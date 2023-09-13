@@ -6,6 +6,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src="https://kit.fontawesome.com/d4a040c383.js" crossorigin="anonymous"></script>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
 </head>
@@ -14,11 +15,12 @@
     <header>
         <nav class="navbar">
             <div class="nav_logo">
-                <img src="img/Netflix-Logo.png" alt="Logo" class="Netflix-Logo" />
+                <img src="img/Netflix-Logo.png" alt="Logo" class="netflix_Logo" />
             </div>
             <div class="nav_items">
                 <div class="nav_item_1">
                     <div class="dropdown">
+                        <i class="fa-solid fa-globe" style="color: white;"></i>
                         <select name="language" id="language_id" class="language_class">
                             <option class="option1">English</option>
                             <option class="option2">Hindi</option>
@@ -27,11 +29,19 @@
 
                 </div>
                 <div class="nav_item_1">
-
+                    <button class="sign_in">Sign In</button>
                 </div>
             </div>
         </nav>
     </header>
+    <main>
+        <section class="hero">
+            <div class="hero_background">
+                <img src="img/netfllix_Bg.jpg" alt="Background Image" class="hero_bg"/>
+            </div>
+            <div class="hero_background_overlay"></div>
+        </section>
+    </main>
 </body>
 
 </html>
