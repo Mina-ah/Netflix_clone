@@ -48,7 +48,8 @@ body {
     border-radius: 4px;
     background: rgba(0, 0, 0, 0.4);
 }
-.sign_in{
+
+.sign_in {
     border: #dc030f;
     background-color: #dc030f;
     color: white;
@@ -57,19 +58,41 @@ body {
     height: 35px;
     width: 100px;
 }
-.hero_background{
+
+.hero_background {
     width: 100%;
     height: 100%;
 }
-.hero_bg{
+
+.hero_bg {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.hero_background_overlay{
+
+.hero_background_overlay {
     position: absolute;
     inset: 0;
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.6);
+}
+
+.hero_card {
+    top: 30%;
+    left: 17%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+.card_title{
+    font-weight: 600;
+    font-size: 3rem;
+}
+.card_subtitle,
+card_desc{
+    font-weight: 400;
+    font-size: 1.3rem;
 }
